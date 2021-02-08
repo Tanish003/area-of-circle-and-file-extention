@@ -1,0 +1,11 @@
+# program for area of circle
+
+print("Area of circle is",3.14*float(input("Enter Radius of a circle :- "))**2)
+
+
+
+#program for file extention
+
+filename = input("enter the filename : ")
+extention = filename.split(".")
+print("the extention is ", extention[-1])
